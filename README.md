@@ -15,3 +15,6 @@ Then click "Confirm"
 In Open Paging Server, create a new Yealink Push XML endpoint with the IP address of the phone and the same username & password you provided to the phone earlier.
 
 If you would like to provide audio to the phone, the most common way is to use Multicast RTP audio. If you are running Open Paging Server 0.4.0 or later, you can create a Multicast RTP endpoint, then add it under "Multicast Listening" under Directory > Multicast IP. You can also use a SIP trunk to a PBX registered to the phone and have OPS dial a paging or auto-answer group.
+
+## SIP Notify
+Currently, support for SIP Notify is planned so that visual messages can be sent over WAN easily. This will be added once OPS can support such a feature.
